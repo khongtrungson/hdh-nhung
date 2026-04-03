@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "SmartDoor",
+    "slug": "smartdoor",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1e3a5f"
+    },
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1e3a5f"
+      }
+    },
+    "extra": {
+      "apiUrl": "http://192.168.1.100:8000/api",
+      "wsUrl": "ws://192.168.1.100:8000/ws"
+    }
+  }
+}
